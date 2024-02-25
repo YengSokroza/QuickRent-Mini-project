@@ -2,7 +2,7 @@ export const card = (room) => {
     return `
     <div class="overflow-hidden rounded-xl shadow-xl">
     <div>
-        <a href="../detail.html"><img class="w-full h-[230px] rounded-t-lg object-cover" src="${room.image || "https://www.svgrepo.com/show/508699/landscape-placeholder.svg"} " alt="image description"></a>
+        <a href="detail.html"><img class="w-full h-[230px] rounded-t-lg object-cover" src="${room.image || "https://www.svgrepo.com/show/508699/landscape-placeholder.svg"} " alt="image description"></a>
 
     </div>
     <div class="space-y-2 p-4">
