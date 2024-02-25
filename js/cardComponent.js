@@ -1,6 +1,6 @@
 export const card = (room) => {
     return `
-    <div class="overflow-hidden rounded-xl shadow-xl">
+    <div class="overflow-hidden ring-1 ring-gray-100 rounded-xl hover:shadow-xl">
     <div>
         <a href="detail.html"><img class="w-full h-[230px] rounded-t-lg object-cover" src="${room.image || "https://www.svgrepo.com/show/508699/landscape-placeholder.svg"} " alt="image description"></a>
 
